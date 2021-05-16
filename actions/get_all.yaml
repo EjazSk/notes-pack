@@ -1,0 +1,5 @@
+---
+name: get_all
+runner_type: python-script
+description: Gets all notes
+entry_point: get_all.py

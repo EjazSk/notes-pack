@@ -1,0 +1,11 @@
+---
+ref: notes
+name: Notes
+description: Notes CRUD integration pack
+keywords:
+  - notes
+version: 0.0.1
+author: Ejaz S
+email: ejaz.shaikh@example.com
+python_versions:
+  - "3"

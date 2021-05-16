@@ -1,0 +1,6 @@
+---
+base_url:
+  description: "API endpoint for Notes"
+  type: "string"
+  secret: false
+  required: true
