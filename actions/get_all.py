@@ -12,5 +12,5 @@ class GetAll(Action):
         self.url = self.config.get('base_url')
 
     def run(self):
-        notes = requests.get(self.url)
+        notes = requests.get(self.url).json()
         return notes
