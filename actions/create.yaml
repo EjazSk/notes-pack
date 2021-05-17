@@ -1,0 +1,14 @@
+---
+name: create
+runner_type: python-script
+description: Creates a Note
+entry_point: create.py
+parameters:
+  title:
+    type: string
+    description: Title for Note
+    required: true
+  content:
+    type: string
+    description: Description for Note
+    required: true
